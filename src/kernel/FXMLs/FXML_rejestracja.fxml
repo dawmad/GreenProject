@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="396.0" prefWidth="502.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+    <stylesheets>
+        <URL value="@fxml_rejestracja.css" />
+    </stylesheets>
+   <children>
+      <TextField layoutX="302.0" layoutY="76.0" />
+      <TextField layoutX="302.0" layoutY="123.0" />
+      <TextField layoutX="302.0" layoutY="171.0" />
+      <Text layoutX="157.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Imie" />
+      <Text layoutX="157.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nazwisko" />
+      <Text layoutX="157.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" />
+      <Text layoutX="156.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hasło" />
+      <TextField layoutX="302.0" layoutY="222.0" />
+      <TextField layoutX="302.0" layoutY="265.0" />
+      <Text layoutX="156.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Powtórz hasło " />
+      <Button layoutX="113.0" layoutY="302.0" mnemonicParsing="false" text="Zarejestruj" />
+      <Text fontSmoothingType="LCD" layoutX="198.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rejestracja">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
