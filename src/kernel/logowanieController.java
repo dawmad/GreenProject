@@ -5,6 +5,7 @@
  */
 package kernel;
 
+import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -47,10 +48,20 @@ public class logowanieController implements Initializable {
             //test !!! Dawid
           
     }
+    @FXML
+    private void handleButtonAction1(ActionEvent event) throws IOException {
+         // Button was clicked, do something...
+        Stage stage1 = new Stage();
+        Parent root1 = FXMLLoader.load(getClass().getResource("FXMLs/FXML_rejestracja.fxml"));
+        Scene scene = new Scene(root1);
+        stage1.setScene(scene);
+        stage1.show();
+        
+                }
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        
     }    
     
 }
