@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="608.0" prefWidth="815.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="282.0" layoutY="208.0" text="Tu nic nie ma i to nic nie robi, to tylko test :D" />
+   </children>
+</AnchorPane>

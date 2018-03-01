@@ -6,23 +6,31 @@
 package kernel;
 
 import javafx.application.Application;
+import static javafx.application.Application.launch;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 /**
  *
- * @author student
+ * @author tomekniemczyk
  */
+
+//otwieramy okno logowania
+
 public class main extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLs/FXML_logowanie.fxml"));
         
         Scene scene = new Scene(root);
-        
+        stage.setTitle("Logowanie:");
         stage.setScene(scene);
         stage.show();
     }
