@@ -8,26 +8,28 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="396.0" prefWidth="502.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+<AnchorPane id="AnchorPane" prefHeight="396.0" prefWidth="502.0" styleClass="bodyybg" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
     <stylesheets>
         <URL value="@fxml_rejestracja.css" />
+      <URL value="@backgroundtest.css" />
     </stylesheets>
    <children>
-      <TextField layoutX="302.0" layoutY="76.0" />
-      <TextField layoutX="302.0" layoutY="123.0" />
-      <TextField layoutX="302.0" layoutY="171.0" />
-      <Text layoutX="157.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Imie" />
-      <Text layoutX="157.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nazwisko" />
-      <Text layoutX="157.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" />
-      <Text layoutX="156.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hasło" />
-      <TextField layoutX="302.0" layoutY="222.0" />
-      <TextField layoutX="302.0" layoutY="265.0" />
-      <Text layoutX="156.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Powtórz hasło " />
-      <Button layoutX="113.0" layoutY="302.0" mnemonicParsing="false" text="Zarejestruj" />
+      <TextField layoutX="251.0" layoutY="78.0" />
+      <TextField layoutX="251.0" layoutY="125.0" />
+      <TextField layoutX="251.0" layoutY="173.0" />
+      <Text layoutX="111.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Imie" />
+      <Text layoutX="111.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nazwisko" />
+      <Text layoutX="111.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" />
+      <Text layoutX="110.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hasło" />
+      <TextField layoutX="251.0" layoutY="224.0" />
+      <TextField layoutX="251.0" layoutY="267.0" />
+      <Text layoutX="110.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Powtórz hasło " />
+      <Button layoutX="222.0" layoutY="339.0" mnemonicParsing="false" text="Zarejestruj" />
       <Text fontSmoothingType="LCD" layoutX="198.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rejestracja">
          <font>
             <Font size="22.0" />
          </font>
       </Text>
+      <Label layoutX="6.0" layoutY="6.0" text="Label" />
    </children>
 </AnchorPane>

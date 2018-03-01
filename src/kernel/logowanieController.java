@@ -45,7 +45,7 @@ public class logowanieController implements Initializable {
             Scene scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            //test !!! Dawid
+           
           
     }
     @FXML
