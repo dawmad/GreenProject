@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="326.0" prefWidth="470.0" style="-fx-background-color: #6dc4ed#6dc4ed;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.4" fx:controller="kernel.FXMLDocumentController">
     <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
+        <Button fx:id="button" layoutX="278.0" layoutY="168.0" onAction="#handleButtonAction" style="-fx-background-color: #a7def9#a7def9;" text="Zaloguj" />
+        <Label fx:id="label" layoutX="107.0" layoutY="184.0" minHeight="16" minWidth="69" />
+      <Label layoutX="141.0" layoutY="26.0" text="System zarządzania zadaniami" textAlignment="CENTER">
+         <font>
+            <Font name="Tahoma" size="16.0" />
+         </font>
+      </Label>
+      <Text layoutX="125.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nie masz konta ?" />
+      <TextField id="loginField" layoutX="186.0" layoutY="80.0" />
+      <Text layoutX="133.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login:" />
+      <Text layoutX="133.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hasło:" />
+      <TextField id="passField" layoutX="186.0" layoutY="114.0" />
+      <Button layoutX="255.0" layoutY="231.0" mnemonicParsing="false" style="-fx-background-color: #a7def9#a7def9;" text="Rejestracja" />
     </children>
 </AnchorPane>
